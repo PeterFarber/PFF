@@ -15,7 +15,7 @@
   .pff-wheel > circle {
     fill: none;
     stroke: #DDD;
-    stroke-width: 4px;
+    stroke-width: 6px;
     stroke-dasharray: 0 0;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -23,8 +23,8 @@
     transition: all 1s ease-out; }
 
 .pff-small {
-  width: 94px;
-  height: 94px; }
+  width: 96px;
+  height: 96px; }
   .pff-small > .pff-wheel-percent-0 {
     stroke-dasharray: 0 283; }
   .pff-small > .pff-wheel-percent-1 {
@@ -226,17 +226,17 @@
   .pff-small > .pff-wheel-percent-99 {
     stroke-dasharray: 280 283; }
   .pff-small > text {
-    transform: translate(47px, 48px); }
+    transform: translate(48px, 49px); }
   .pff-small > .pff-wheel-track, .pff-small > .pff-wheel-thumb {
     r: 45;
-    cx: 47;
-    cy: 47; }
+    cx: 48;
+    cy: 48; }
   .pff-small > .pff-wheel-thumb {
-    transform: translate(0px, 94px) rotate(-90deg); }
+    transform: translate(0px, 96px) rotate(-90deg); }
 
 .pff-medium {
-  width: 124px;
-  height: 124px; }
+  width: 126px;
+  height: 126px; }
   .pff-medium > .pff-wheel-percent-0 {
     stroke-dasharray: 0 377; }
   .pff-medium > .pff-wheel-percent-1 {
@@ -438,17 +438,17 @@
   .pff-medium > .pff-wheel-percent-99 {
     stroke-dasharray: 373 377; }
   .pff-medium > text {
-    transform: translate(62px, 63px); }
+    transform: translate(63px, 64px); }
   .pff-medium > .pff-wheel-track, .pff-medium > .pff-wheel-thumb {
     r: 60;
-    cx: 62;
-    cy: 62; }
+    cx: 63;
+    cy: 63; }
   .pff-medium > .pff-wheel-thumb {
-    transform: translate(0px, 124px) rotate(-90deg); }
+    transform: translate(0px, 126px) rotate(-90deg); }
 
 .pff-large {
-  width: 154px;
-  height: 154px; }
+  width: 156px;
+  height: 156px; }
   .pff-large > .pff-wheel-percent-0 {
     stroke-dasharray: 0 471; }
   .pff-large > .pff-wheel-percent-1 {
@@ -650,13 +650,13 @@
   .pff-large > .pff-wheel-percent-99 {
     stroke-dasharray: 466 471; }
   .pff-large > text {
-    transform: translate(77px, 78px); }
+    transform: translate(78px, 79px); }
   .pff-large > .pff-wheel-track, .pff-large > .pff-wheel-thumb {
     r: 75;
-    cx: 77;
-    cy: 77; }
+    cx: 78;
+    cy: 78; }
   .pff-large > .pff-wheel-thumb {
-    transform: translate(0px, 154px) rotate(-90deg); }
+    transform: translate(0px, 156px) rotate(-90deg); }
 
 .pff-red > .pff-wheel-thumb {
   stroke: #666; }
