@@ -54,12 +54,21 @@
 			</svg>
 		</div>
 
-		<div style="width:300px; display:inline-block;">
+		<div style="width:400px; display:inline-block;">
+
+			<div><b><u>Percents:</u></b></div>
+			<div>pff-wheel-percent-0</div>
+			<div>pff-wheel-percent-1</div>
+			<div>...</div>
+			<div>pff-wheel-percent-99</div>
+			</br>
+
 			<div><b><u>Sizes:</u></b></div>
 			<div>pff-small</div>
 			<div>pff-medium</div>
 			<div>pff-large</div>
 			</br>
+
 			<div><b><u>Colors:</u></b></div>
 			<div style="color: #f44336;">pff-red</div>
 			<div style="color:#e91e63;">pff-pink</div>
@@ -78,6 +87,19 @@
 			<div style="color:#bbb;">pff-gray</div>
 			<div style="color:#f1f1f1;">pff-lightgray</div>
 			<div style="margin-top:20px;"><b>P.S.</b> <i>If you recompile the sass, you can add as many sizes and/or colors as you want!<br>Well I guess you could modify the css but it may take awhile o_O</i></div>
+		</div>
+
+		<div style="width:556px; margin-top:20px;">
+			<b>Example Usage:</b></br>
+			<code style="color:#fff;">
+				<div style="background-color:rgb(39,40,34); padding:10px; border:1px solid rgb(102,217,239); border-radius:6px;">
+					<div>&lt;<span style="color:rgb(185,39,76);">svg</span> <span style="color:rgb(145,226,46);">class</span>=<span style="color:rgb(230,191,77);">"pff-wheel pff-large pff-blue"</span>&gt;</div>
+						<div style="margin-left:12px;">&lt;<span style="color:rgb(185,39,76);">text</span>&gt;TEXT HERE&lt;/<span style="color:rgb(185,39,76);">text</span>&gt;</div>
+						<div style="margin-left:12px;">&lt;<span style="color:rgb(185,39,76);">circle</span> <span style="color:rgb(145,226,46);">class</span>=<span style="color:rgb(230,191,77);">"pff-circle pff-wheel-track"</span>&gt;&lt;/<span style="color:rgb(185,39,76);">circle</span>&gt;</div>
+						<div style="margin-left:12px;">&lt;<span style="color:rgb(185,39,76);">circle</span> <span style="color:rgb(145,226,46);">class</span>=<span style="color:rgb(230,191,77);">"pff-circle pff-wheel-thumb pff-wheel-percent-25"</span>&gt;&lt;/<span style="color:rgb(185,39,76);">circle</span>&gt;</div>
+					<div>&lt;/<span style="color:rgb(185,39,76);">svg</span>&gt;</div>
+				</div>
+			</code>
 		</div>
 	</body>
 

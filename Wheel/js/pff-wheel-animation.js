@@ -7,6 +7,19 @@
 	License: MIT
 */
 
+//Animate the Wheels in.
+ $(".pff-wheel").each(function(index, element){
+	var PFF_Wheel_Thump = $(element).children(".pff-wheel-thumb");
+	var PFF_Wheel_SDA = PFF_Wheel_Thump.css("stroke-dasharray").split(", ");
+	var PFF_Transition = PFF_Wheel_Thump.css("transition");
+	PFF_Wheel_Thump.css("transition", "none");
+	PFF_Wheel_Thump.css("stroke-dashoffset", PFF_Wheel_SDA[0]);
+	setTimeout(function() {
+		PFF_Wheel_Thump.css("transition", PFF_Transition);
+	    PFF_Wheel_Thump.css("stroke-dashoffset", 0);
+	}, 300);
+});
+
 $(document).ready(function(){
 
 	//Animate in/out based on the type passed in.
@@ -19,19 +32,6 @@ $(document).ready(function(){
 		    PFF_Wheel_Thump.css("stroke-dashoffset", 0);
 		}
 	}
-
-	//On Page Load Animate the Wheels in.
-     $(".pff-wheel").each(function(index, element){
-		var PFF_Wheel_Thump = $(element).children(".pff-wheel-thumb");
-		var PFF_Wheel_SDA = PFF_Wheel_Thump.css("stroke-dasharray").split(", ");
-		var PFF_Transition = PFF_Wheel_Thump.css("transition");
-		PFF_Wheel_Thump.css("transition", "none");
-		PFF_Wheel_Thump.css("stroke-dashoffset", PFF_Wheel_SDA[0]);
-		setTimeout(function() {
-			PFF_Wheel_Thump.css("transition", PFF_Transition);
-		    PFF_Wheel_Thump.css("stroke-dashoffset", 0);
-		}, 300);
-    });
 
     //On mouse enter animate selected element out.
 	$( ".pff-wheel" ).mouseenter(function() {
