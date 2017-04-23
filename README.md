@@ -5,4 +5,4 @@ Copyright: PFF (Peter Farber's Framework)<br>
 License: MIT<br>
 
 
-<b>WHEEL DEMO : </b>https://www.PeterSFarber.com/PFF/Wheel/
+<b>WHEEL DEMO : </b>https://www.PeterSFarber.com/PFF/Wheel/pff-wheel.html
