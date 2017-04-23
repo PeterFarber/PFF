@@ -8,7 +8,20 @@
 */
 
 $(document).ready(function(){
-	$(".pff-wheel").each(function(index, element){
+
+	//Animate in/out based on the type passed in.
+	function pff_amimate(element, type) {
+		var PFF_Wheel_Thump = $(element).children(".pff-wheel-thumb");
+		var PFF_Wheel_SDA = PFF_Wheel_Thump.css("stroke-dasharray").split(", ");
+		if(type == "in"){
+			PFF_Wheel_Thump.css("stroke-dashoffset", PFF_Wheel_SDA[0]);
+		}else{
+		    PFF_Wheel_Thump.css("stroke-dashoffset", 0);
+		}
+	}
+
+	//On Page Load Animate the Wheels in.
+     $(".pff-wheel").each(function(index, element){
 		var PFF_Wheel_Thump = $(element).children(".pff-wheel-thumb");
 		var PFF_Wheel_SDA = PFF_Wheel_Thump.css("stroke-dasharray").split(", ");
 		var PFF_Transition = PFF_Wheel_Thump.css("transition");
@@ -19,4 +32,16 @@ $(document).ready(function(){
 		    PFF_Wheel_Thump.css("stroke-dashoffset", 0);
 		}, 300);
     });
+
+    //On mouse enter animate selected element out.
+	$( ".pff-wheel" ).mouseenter(function() {
+		pff_amimate(this, "in");
+	});
+
+	//On mouse leave animate selected element in.
+	$( ".pff-wheel" ).mouseleave(function() {
+		pff_amimate(this, "out");
+	});
+
+
 });	
