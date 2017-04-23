@@ -1,0 +1,757 @@
+/*
+	File: pff-wheel.scss
+	Author: Peter Farber
+	Contributors: N/A
+	Last Modified: 4/22/2017
+	Copyright: PFF (Peter Farber's Framework)
+	License: MIT
+*/
+.pff-wheel {
+  cursor: pointer; }
+  .pff-wheel text {
+    font-size: 16px;
+    text-anchor: middle;
+    alignment-baseline: middle; }
+  .pff-wheel > circle {
+    fill: none;
+    stroke: #DDD;
+    stroke-width: 4;
+    stroke-dasharray: 0 0;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s; }
+
+.pff-small {
+  width: 94;
+  height: 94; }
+  .pff-small > .pff-wheel-percent-0 {
+    stroke-dasharray: 0 283; }
+  .pff-small > .pff-wheel-percent-1 {
+    stroke-dasharray: 3 283; }
+  .pff-small > .pff-wheel-percent-2 {
+    stroke-dasharray: 6 283; }
+  .pff-small > .pff-wheel-percent-3 {
+    stroke-dasharray: 8 283; }
+  .pff-small > .pff-wheel-percent-4 {
+    stroke-dasharray: 11 283; }
+  .pff-small > .pff-wheel-percent-5 {
+    stroke-dasharray: 14 283; }
+  .pff-small > .pff-wheel-percent-6 {
+    stroke-dasharray: 17 283; }
+  .pff-small > .pff-wheel-percent-7 {
+    stroke-dasharray: 20 283; }
+  .pff-small > .pff-wheel-percent-8 {
+    stroke-dasharray: 23 283; }
+  .pff-small > .pff-wheel-percent-9 {
+    stroke-dasharray: 25 283; }
+  .pff-small > .pff-wheel-percent-10 {
+    stroke-dasharray: 28 283; }
+  .pff-small > .pff-wheel-percent-11 {
+    stroke-dasharray: 31 283; }
+  .pff-small > .pff-wheel-percent-12 {
+    stroke-dasharray: 34 283; }
+  .pff-small > .pff-wheel-percent-13 {
+    stroke-dasharray: 37 283; }
+  .pff-small > .pff-wheel-percent-14 {
+    stroke-dasharray: 40 283; }
+  .pff-small > .pff-wheel-percent-15 {
+    stroke-dasharray: 42 283; }
+  .pff-small > .pff-wheel-percent-16 {
+    stroke-dasharray: 45 283; }
+  .pff-small > .pff-wheel-percent-17 {
+    stroke-dasharray: 48 283; }
+  .pff-small > .pff-wheel-percent-18 {
+    stroke-dasharray: 51 283; }
+  .pff-small > .pff-wheel-percent-19 {
+    stroke-dasharray: 54 283; }
+  .pff-small > .pff-wheel-percent-20 {
+    stroke-dasharray: 57 283; }
+  .pff-small > .pff-wheel-percent-21 {
+    stroke-dasharray: 59 283; }
+  .pff-small > .pff-wheel-percent-22 {
+    stroke-dasharray: 62 283; }
+  .pff-small > .pff-wheel-percent-23 {
+    stroke-dasharray: 65 283; }
+  .pff-small > .pff-wheel-percent-24 {
+    stroke-dasharray: 68 283; }
+  .pff-small > .pff-wheel-percent-25 {
+    stroke-dasharray: 71 283; }
+  .pff-small > .pff-wheel-percent-26 {
+    stroke-dasharray: 74 283; }
+  .pff-small > .pff-wheel-percent-27 {
+    stroke-dasharray: 76 283; }
+  .pff-small > .pff-wheel-percent-28 {
+    stroke-dasharray: 79 283; }
+  .pff-small > .pff-wheel-percent-29 {
+    stroke-dasharray: 82 283; }
+  .pff-small > .pff-wheel-percent-30 {
+    stroke-dasharray: 85 283; }
+  .pff-small > .pff-wheel-percent-31 {
+    stroke-dasharray: 88 283; }
+  .pff-small > .pff-wheel-percent-32 {
+    stroke-dasharray: 91 283; }
+  .pff-small > .pff-wheel-percent-33 {
+    stroke-dasharray: 93 283; }
+  .pff-small > .pff-wheel-percent-34 {
+    stroke-dasharray: 96 283; }
+  .pff-small > .pff-wheel-percent-35 {
+    stroke-dasharray: 99 283; }
+  .pff-small > .pff-wheel-percent-36 {
+    stroke-dasharray: 102 283; }
+  .pff-small > .pff-wheel-percent-37 {
+    stroke-dasharray: 105 283; }
+  .pff-small > .pff-wheel-percent-38 {
+    stroke-dasharray: 108 283; }
+  .pff-small > .pff-wheel-percent-39 {
+    stroke-dasharray: 110 283; }
+  .pff-small > .pff-wheel-percent-40 {
+    stroke-dasharray: 113 283; }
+  .pff-small > .pff-wheel-percent-41 {
+    stroke-dasharray: 116 283; }
+  .pff-small > .pff-wheel-percent-42 {
+    stroke-dasharray: 119 283; }
+  .pff-small > .pff-wheel-percent-43 {
+    stroke-dasharray: 122 283; }
+  .pff-small > .pff-wheel-percent-44 {
+    stroke-dasharray: 125 283; }
+  .pff-small > .pff-wheel-percent-45 {
+    stroke-dasharray: 127 283; }
+  .pff-small > .pff-wheel-percent-46 {
+    stroke-dasharray: 130 283; }
+  .pff-small > .pff-wheel-percent-47 {
+    stroke-dasharray: 133 283; }
+  .pff-small > .pff-wheel-percent-48 {
+    stroke-dasharray: 136 283; }
+  .pff-small > .pff-wheel-percent-49 {
+    stroke-dasharray: 139 283; }
+  .pff-small > .pff-wheel-percent-50 {
+    stroke-dasharray: 142 283; }
+  .pff-small > .pff-wheel-percent-51 {
+    stroke-dasharray: 144 283; }
+  .pff-small > .pff-wheel-percent-52 {
+    stroke-dasharray: 147 283; }
+  .pff-small > .pff-wheel-percent-53 {
+    stroke-dasharray: 150 283; }
+  .pff-small > .pff-wheel-percent-54 {
+    stroke-dasharray: 153 283; }
+  .pff-small > .pff-wheel-percent-55 {
+    stroke-dasharray: 156 283; }
+  .pff-small > .pff-wheel-percent-56 {
+    stroke-dasharray: 158 283; }
+  .pff-small > .pff-wheel-percent-57 {
+    stroke-dasharray: 161 283; }
+  .pff-small > .pff-wheel-percent-58 {
+    stroke-dasharray: 164 283; }
+  .pff-small > .pff-wheel-percent-59 {
+    stroke-dasharray: 167 283; }
+  .pff-small > .pff-wheel-percent-60 {
+    stroke-dasharray: 170 283; }
+  .pff-small > .pff-wheel-percent-61 {
+    stroke-dasharray: 173 283; }
+  .pff-small > .pff-wheel-percent-62 {
+    stroke-dasharray: 175 283; }
+  .pff-small > .pff-wheel-percent-63 {
+    stroke-dasharray: 178 283; }
+  .pff-small > .pff-wheel-percent-64 {
+    stroke-dasharray: 181 283; }
+  .pff-small > .pff-wheel-percent-65 {
+    stroke-dasharray: 184 283; }
+  .pff-small > .pff-wheel-percent-66 {
+    stroke-dasharray: 187 283; }
+  .pff-small > .pff-wheel-percent-67 {
+    stroke-dasharray: 190 283; }
+  .pff-small > .pff-wheel-percent-68 {
+    stroke-dasharray: 192 283; }
+  .pff-small > .pff-wheel-percent-69 {
+    stroke-dasharray: 195 283; }
+  .pff-small > .pff-wheel-percent-70 {
+    stroke-dasharray: 198 283; }
+  .pff-small > .pff-wheel-percent-71 {
+    stroke-dasharray: 201 283; }
+  .pff-small > .pff-wheel-percent-72 {
+    stroke-dasharray: 204 283; }
+  .pff-small > .pff-wheel-percent-73 {
+    stroke-dasharray: 207 283; }
+  .pff-small > .pff-wheel-percent-74 {
+    stroke-dasharray: 209 283; }
+  .pff-small > .pff-wheel-percent-75 {
+    stroke-dasharray: 212 283; }
+  .pff-small > .pff-wheel-percent-76 {
+    stroke-dasharray: 215 283; }
+  .pff-small > .pff-wheel-percent-77 {
+    stroke-dasharray: 218 283; }
+  .pff-small > .pff-wheel-percent-78 {
+    stroke-dasharray: 221 283; }
+  .pff-small > .pff-wheel-percent-79 {
+    stroke-dasharray: 224 283; }
+  .pff-small > .pff-wheel-percent-80 {
+    stroke-dasharray: 226 283; }
+  .pff-small > .pff-wheel-percent-81 {
+    stroke-dasharray: 229 283; }
+  .pff-small > .pff-wheel-percent-82 {
+    stroke-dasharray: 232 283; }
+  .pff-small > .pff-wheel-percent-83 {
+    stroke-dasharray: 235 283; }
+  .pff-small > .pff-wheel-percent-84 {
+    stroke-dasharray: 238 283; }
+  .pff-small > .pff-wheel-percent-85 {
+    stroke-dasharray: 241 283; }
+  .pff-small > .pff-wheel-percent-86 {
+    stroke-dasharray: 243 283; }
+  .pff-small > .pff-wheel-percent-87 {
+    stroke-dasharray: 246 283; }
+  .pff-small > .pff-wheel-percent-88 {
+    stroke-dasharray: 249 283; }
+  .pff-small > .pff-wheel-percent-89 {
+    stroke-dasharray: 252 283; }
+  .pff-small > .pff-wheel-percent-90 {
+    stroke-dasharray: 255 283; }
+  .pff-small > .pff-wheel-percent-91 {
+    stroke-dasharray: 258 283; }
+  .pff-small > .pff-wheel-percent-92 {
+    stroke-dasharray: 260 283; }
+  .pff-small > .pff-wheel-percent-93 {
+    stroke-dasharray: 263 283; }
+  .pff-small > .pff-wheel-percent-94 {
+    stroke-dasharray: 266 283; }
+  .pff-small > .pff-wheel-percent-95 {
+    stroke-dasharray: 269 283; }
+  .pff-small > .pff-wheel-percent-96 {
+    stroke-dasharray: 272 283; }
+  .pff-small > .pff-wheel-percent-97 {
+    stroke-dasharray: 275 283; }
+  .pff-small > .pff-wheel-percent-98 {
+    stroke-dasharray: 277 283; }
+  .pff-small > .pff-wheel-percent-99 {
+    stroke-dasharray: 280 283; }
+  .pff-small > text {
+    transform: translate(47px, 48px); }
+  .pff-small > .pff-wheel-track, .pff-small > .pff-wheel-thumb {
+    r: 45;
+    cx: 47;
+    cy: 47; }
+  .pff-small > .pff-wheel-thumb {
+    transform: translate(0px, 94px) rotate(-90deg); }
+
+.pff-medium {
+  width: 124;
+  height: 124; }
+  .pff-medium > .pff-wheel-percent-0 {
+    stroke-dasharray: 0 377; }
+  .pff-medium > .pff-wheel-percent-1 {
+    stroke-dasharray: 4 377; }
+  .pff-medium > .pff-wheel-percent-2 {
+    stroke-dasharray: 8 377; }
+  .pff-medium > .pff-wheel-percent-3 {
+    stroke-dasharray: 11 377; }
+  .pff-medium > .pff-wheel-percent-4 {
+    stroke-dasharray: 15 377; }
+  .pff-medium > .pff-wheel-percent-5 {
+    stroke-dasharray: 19 377; }
+  .pff-medium > .pff-wheel-percent-6 {
+    stroke-dasharray: 23 377; }
+  .pff-medium > .pff-wheel-percent-7 {
+    stroke-dasharray: 26 377; }
+  .pff-medium > .pff-wheel-percent-8 {
+    stroke-dasharray: 30 377; }
+  .pff-medium > .pff-wheel-percent-9 {
+    stroke-dasharray: 34 377; }
+  .pff-medium > .pff-wheel-percent-10 {
+    stroke-dasharray: 38 377; }
+  .pff-medium > .pff-wheel-percent-11 {
+    stroke-dasharray: 41 377; }
+  .pff-medium > .pff-wheel-percent-12 {
+    stroke-dasharray: 45 377; }
+  .pff-medium > .pff-wheel-percent-13 {
+    stroke-dasharray: 49 377; }
+  .pff-medium > .pff-wheel-percent-14 {
+    stroke-dasharray: 53 377; }
+  .pff-medium > .pff-wheel-percent-15 {
+    stroke-dasharray: 57 377; }
+  .pff-medium > .pff-wheel-percent-16 {
+    stroke-dasharray: 60 377; }
+  .pff-medium > .pff-wheel-percent-17 {
+    stroke-dasharray: 64 377; }
+  .pff-medium > .pff-wheel-percent-18 {
+    stroke-dasharray: 68 377; }
+  .pff-medium > .pff-wheel-percent-19 {
+    stroke-dasharray: 72 377; }
+  .pff-medium > .pff-wheel-percent-20 {
+    stroke-dasharray: 75 377; }
+  .pff-medium > .pff-wheel-percent-21 {
+    stroke-dasharray: 79 377; }
+  .pff-medium > .pff-wheel-percent-22 {
+    stroke-dasharray: 83 377; }
+  .pff-medium > .pff-wheel-percent-23 {
+    stroke-dasharray: 87 377; }
+  .pff-medium > .pff-wheel-percent-24 {
+    stroke-dasharray: 90 377; }
+  .pff-medium > .pff-wheel-percent-25 {
+    stroke-dasharray: 94 377; }
+  .pff-medium > .pff-wheel-percent-26 {
+    stroke-dasharray: 98 377; }
+  .pff-medium > .pff-wheel-percent-27 {
+    stroke-dasharray: 102 377; }
+  .pff-medium > .pff-wheel-percent-28 {
+    stroke-dasharray: 106 377; }
+  .pff-medium > .pff-wheel-percent-29 {
+    stroke-dasharray: 109 377; }
+  .pff-medium > .pff-wheel-percent-30 {
+    stroke-dasharray: 113 377; }
+  .pff-medium > .pff-wheel-percent-31 {
+    stroke-dasharray: 117 377; }
+  .pff-medium > .pff-wheel-percent-32 {
+    stroke-dasharray: 121 377; }
+  .pff-medium > .pff-wheel-percent-33 {
+    stroke-dasharray: 124 377; }
+  .pff-medium > .pff-wheel-percent-34 {
+    stroke-dasharray: 128 377; }
+  .pff-medium > .pff-wheel-percent-35 {
+    stroke-dasharray: 132 377; }
+  .pff-medium > .pff-wheel-percent-36 {
+    stroke-dasharray: 136 377; }
+  .pff-medium > .pff-wheel-percent-37 {
+    stroke-dasharray: 139 377; }
+  .pff-medium > .pff-wheel-percent-38 {
+    stroke-dasharray: 143 377; }
+  .pff-medium > .pff-wheel-percent-39 {
+    stroke-dasharray: 147 377; }
+  .pff-medium > .pff-wheel-percent-40 {
+    stroke-dasharray: 151 377; }
+  .pff-medium > .pff-wheel-percent-41 {
+    stroke-dasharray: 155 377; }
+  .pff-medium > .pff-wheel-percent-42 {
+    stroke-dasharray: 158 377; }
+  .pff-medium > .pff-wheel-percent-43 {
+    stroke-dasharray: 162 377; }
+  .pff-medium > .pff-wheel-percent-44 {
+    stroke-dasharray: 166 377; }
+  .pff-medium > .pff-wheel-percent-45 {
+    stroke-dasharray: 170 377; }
+  .pff-medium > .pff-wheel-percent-46 {
+    stroke-dasharray: 173 377; }
+  .pff-medium > .pff-wheel-percent-47 {
+    stroke-dasharray: 177 377; }
+  .pff-medium > .pff-wheel-percent-48 {
+    stroke-dasharray: 181 377; }
+  .pff-medium > .pff-wheel-percent-49 {
+    stroke-dasharray: 185 377; }
+  .pff-medium > .pff-wheel-percent-50 {
+    stroke-dasharray: 189 377; }
+  .pff-medium > .pff-wheel-percent-51 {
+    stroke-dasharray: 192 377; }
+  .pff-medium > .pff-wheel-percent-52 {
+    stroke-dasharray: 196 377; }
+  .pff-medium > .pff-wheel-percent-53 {
+    stroke-dasharray: 200 377; }
+  .pff-medium > .pff-wheel-percent-54 {
+    stroke-dasharray: 204 377; }
+  .pff-medium > .pff-wheel-percent-55 {
+    stroke-dasharray: 207 377; }
+  .pff-medium > .pff-wheel-percent-56 {
+    stroke-dasharray: 211 377; }
+  .pff-medium > .pff-wheel-percent-57 {
+    stroke-dasharray: 215 377; }
+  .pff-medium > .pff-wheel-percent-58 {
+    stroke-dasharray: 219 377; }
+  .pff-medium > .pff-wheel-percent-59 {
+    stroke-dasharray: 222 377; }
+  .pff-medium > .pff-wheel-percent-60 {
+    stroke-dasharray: 226 377; }
+  .pff-medium > .pff-wheel-percent-61 {
+    stroke-dasharray: 230 377; }
+  .pff-medium > .pff-wheel-percent-62 {
+    stroke-dasharray: 234 377; }
+  .pff-medium > .pff-wheel-percent-63 {
+    stroke-dasharray: 238 377; }
+  .pff-medium > .pff-wheel-percent-64 {
+    stroke-dasharray: 241 377; }
+  .pff-medium > .pff-wheel-percent-65 {
+    stroke-dasharray: 245 377; }
+  .pff-medium > .pff-wheel-percent-66 {
+    stroke-dasharray: 249 377; }
+  .pff-medium > .pff-wheel-percent-67 {
+    stroke-dasharray: 253 377; }
+  .pff-medium > .pff-wheel-percent-68 {
+    stroke-dasharray: 256 377; }
+  .pff-medium > .pff-wheel-percent-69 {
+    stroke-dasharray: 260 377; }
+  .pff-medium > .pff-wheel-percent-70 {
+    stroke-dasharray: 264 377; }
+  .pff-medium > .pff-wheel-percent-71 {
+    stroke-dasharray: 268 377; }
+  .pff-medium > .pff-wheel-percent-72 {
+    stroke-dasharray: 271 377; }
+  .pff-medium > .pff-wheel-percent-73 {
+    stroke-dasharray: 275 377; }
+  .pff-medium > .pff-wheel-percent-74 {
+    stroke-dasharray: 279 377; }
+  .pff-medium > .pff-wheel-percent-75 {
+    stroke-dasharray: 283 377; }
+  .pff-medium > .pff-wheel-percent-76 {
+    stroke-dasharray: 287 377; }
+  .pff-medium > .pff-wheel-percent-77 {
+    stroke-dasharray: 290 377; }
+  .pff-medium > .pff-wheel-percent-78 {
+    stroke-dasharray: 294 377; }
+  .pff-medium > .pff-wheel-percent-79 {
+    stroke-dasharray: 298 377; }
+  .pff-medium > .pff-wheel-percent-80 {
+    stroke-dasharray: 302 377; }
+  .pff-medium > .pff-wheel-percent-81 {
+    stroke-dasharray: 305 377; }
+  .pff-medium > .pff-wheel-percent-82 {
+    stroke-dasharray: 309 377; }
+  .pff-medium > .pff-wheel-percent-83 {
+    stroke-dasharray: 313 377; }
+  .pff-medium > .pff-wheel-percent-84 {
+    stroke-dasharray: 317 377; }
+  .pff-medium > .pff-wheel-percent-85 {
+    stroke-dasharray: 320 377; }
+  .pff-medium > .pff-wheel-percent-86 {
+    stroke-dasharray: 324 377; }
+  .pff-medium > .pff-wheel-percent-87 {
+    stroke-dasharray: 328 377; }
+  .pff-medium > .pff-wheel-percent-88 {
+    stroke-dasharray: 332 377; }
+  .pff-medium > .pff-wheel-percent-89 {
+    stroke-dasharray: 336 377; }
+  .pff-medium > .pff-wheel-percent-90 {
+    stroke-dasharray: 339 377; }
+  .pff-medium > .pff-wheel-percent-91 {
+    stroke-dasharray: 343 377; }
+  .pff-medium > .pff-wheel-percent-92 {
+    stroke-dasharray: 347 377; }
+  .pff-medium > .pff-wheel-percent-93 {
+    stroke-dasharray: 351 377; }
+  .pff-medium > .pff-wheel-percent-94 {
+    stroke-dasharray: 354 377; }
+  .pff-medium > .pff-wheel-percent-95 {
+    stroke-dasharray: 358 377; }
+  .pff-medium > .pff-wheel-percent-96 {
+    stroke-dasharray: 362 377; }
+  .pff-medium > .pff-wheel-percent-97 {
+    stroke-dasharray: 366 377; }
+  .pff-medium > .pff-wheel-percent-98 {
+    stroke-dasharray: 369 377; }
+  .pff-medium > .pff-wheel-percent-99 {
+    stroke-dasharray: 373 377; }
+  .pff-medium > text {
+    transform: translate(62px, 63px); }
+  .pff-medium > .pff-wheel-track, .pff-medium > .pff-wheel-thumb {
+    r: 60;
+    cx: 62;
+    cy: 62; }
+  .pff-medium > .pff-wheel-thumb {
+    transform: translate(0px, 124px) rotate(-90deg); }
+
+.pff-large {
+  width: 154;
+  height: 154; }
+  .pff-large > .pff-wheel-percent-0 {
+    stroke-dasharray: 0 471; }
+  .pff-large > .pff-wheel-percent-1 {
+    stroke-dasharray: 5 471; }
+  .pff-large > .pff-wheel-percent-2 {
+    stroke-dasharray: 9 471; }
+  .pff-large > .pff-wheel-percent-3 {
+    stroke-dasharray: 14 471; }
+  .pff-large > .pff-wheel-percent-4 {
+    stroke-dasharray: 19 471; }
+  .pff-large > .pff-wheel-percent-5 {
+    stroke-dasharray: 24 471; }
+  .pff-large > .pff-wheel-percent-6 {
+    stroke-dasharray: 28 471; }
+  .pff-large > .pff-wheel-percent-7 {
+    stroke-dasharray: 33 471; }
+  .pff-large > .pff-wheel-percent-8 {
+    stroke-dasharray: 38 471; }
+  .pff-large > .pff-wheel-percent-9 {
+    stroke-dasharray: 42 471; }
+  .pff-large > .pff-wheel-percent-10 {
+    stroke-dasharray: 47 471; }
+  .pff-large > .pff-wheel-percent-11 {
+    stroke-dasharray: 52 471; }
+  .pff-large > .pff-wheel-percent-12 {
+    stroke-dasharray: 57 471; }
+  .pff-large > .pff-wheel-percent-13 {
+    stroke-dasharray: 61 471; }
+  .pff-large > .pff-wheel-percent-14 {
+    stroke-dasharray: 66 471; }
+  .pff-large > .pff-wheel-percent-15 {
+    stroke-dasharray: 71 471; }
+  .pff-large > .pff-wheel-percent-16 {
+    stroke-dasharray: 75 471; }
+  .pff-large > .pff-wheel-percent-17 {
+    stroke-dasharray: 80 471; }
+  .pff-large > .pff-wheel-percent-18 {
+    stroke-dasharray: 85 471; }
+  .pff-large > .pff-wheel-percent-19 {
+    stroke-dasharray: 89 471; }
+  .pff-large > .pff-wheel-percent-20 {
+    stroke-dasharray: 94 471; }
+  .pff-large > .pff-wheel-percent-21 {
+    stroke-dasharray: 99 471; }
+  .pff-large > .pff-wheel-percent-22 {
+    stroke-dasharray: 104 471; }
+  .pff-large > .pff-wheel-percent-23 {
+    stroke-dasharray: 108 471; }
+  .pff-large > .pff-wheel-percent-24 {
+    stroke-dasharray: 113 471; }
+  .pff-large > .pff-wheel-percent-25 {
+    stroke-dasharray: 118 471; }
+  .pff-large > .pff-wheel-percent-26 {
+    stroke-dasharray: 122 471; }
+  .pff-large > .pff-wheel-percent-27 {
+    stroke-dasharray: 127 471; }
+  .pff-large > .pff-wheel-percent-28 {
+    stroke-dasharray: 132 471; }
+  .pff-large > .pff-wheel-percent-29 {
+    stroke-dasharray: 137 471; }
+  .pff-large > .pff-wheel-percent-30 {
+    stroke-dasharray: 141 471; }
+  .pff-large > .pff-wheel-percent-31 {
+    stroke-dasharray: 146 471; }
+  .pff-large > .pff-wheel-percent-32 {
+    stroke-dasharray: 151 471; }
+  .pff-large > .pff-wheel-percent-33 {
+    stroke-dasharray: 155 471; }
+  .pff-large > .pff-wheel-percent-34 {
+    stroke-dasharray: 160 471; }
+  .pff-large > .pff-wheel-percent-35 {
+    stroke-dasharray: 165 471; }
+  .pff-large > .pff-wheel-percent-36 {
+    stroke-dasharray: 170 471; }
+  .pff-large > .pff-wheel-percent-37 {
+    stroke-dasharray: 174 471; }
+  .pff-large > .pff-wheel-percent-38 {
+    stroke-dasharray: 179 471; }
+  .pff-large > .pff-wheel-percent-39 {
+    stroke-dasharray: 184 471; }
+  .pff-large > .pff-wheel-percent-40 {
+    stroke-dasharray: 188 471; }
+  .pff-large > .pff-wheel-percent-41 {
+    stroke-dasharray: 193 471; }
+  .pff-large > .pff-wheel-percent-42 {
+    stroke-dasharray: 198 471; }
+  .pff-large > .pff-wheel-percent-43 {
+    stroke-dasharray: 203 471; }
+  .pff-large > .pff-wheel-percent-44 {
+    stroke-dasharray: 207 471; }
+  .pff-large > .pff-wheel-percent-45 {
+    stroke-dasharray: 212 471; }
+  .pff-large > .pff-wheel-percent-46 {
+    stroke-dasharray: 217 471; }
+  .pff-large > .pff-wheel-percent-47 {
+    stroke-dasharray: 221 471; }
+  .pff-large > .pff-wheel-percent-48 {
+    stroke-dasharray: 226 471; }
+  .pff-large > .pff-wheel-percent-49 {
+    stroke-dasharray: 231 471; }
+  .pff-large > .pff-wheel-percent-50 {
+    stroke-dasharray: 236 471; }
+  .pff-large > .pff-wheel-percent-51 {
+    stroke-dasharray: 240 471; }
+  .pff-large > .pff-wheel-percent-52 {
+    stroke-dasharray: 245 471; }
+  .pff-large > .pff-wheel-percent-53 {
+    stroke-dasharray: 250 471; }
+  .pff-large > .pff-wheel-percent-54 {
+    stroke-dasharray: 254 471; }
+  .pff-large > .pff-wheel-percent-55 {
+    stroke-dasharray: 259 471; }
+  .pff-large > .pff-wheel-percent-56 {
+    stroke-dasharray: 264 471; }
+  .pff-large > .pff-wheel-percent-57 {
+    stroke-dasharray: 268 471; }
+  .pff-large > .pff-wheel-percent-58 {
+    stroke-dasharray: 273 471; }
+  .pff-large > .pff-wheel-percent-59 {
+    stroke-dasharray: 278 471; }
+  .pff-large > .pff-wheel-percent-60 {
+    stroke-dasharray: 283 471; }
+  .pff-large > .pff-wheel-percent-61 {
+    stroke-dasharray: 287 471; }
+  .pff-large > .pff-wheel-percent-62 {
+    stroke-dasharray: 292 471; }
+  .pff-large > .pff-wheel-percent-63 {
+    stroke-dasharray: 297 471; }
+  .pff-large > .pff-wheel-percent-64 {
+    stroke-dasharray: 301 471; }
+  .pff-large > .pff-wheel-percent-65 {
+    stroke-dasharray: 306 471; }
+  .pff-large > .pff-wheel-percent-66 {
+    stroke-dasharray: 311 471; }
+  .pff-large > .pff-wheel-percent-67 {
+    stroke-dasharray: 316 471; }
+  .pff-large > .pff-wheel-percent-68 {
+    stroke-dasharray: 320 471; }
+  .pff-large > .pff-wheel-percent-69 {
+    stroke-dasharray: 325 471; }
+  .pff-large > .pff-wheel-percent-70 {
+    stroke-dasharray: 330 471; }
+  .pff-large > .pff-wheel-percent-71 {
+    stroke-dasharray: 334 471; }
+  .pff-large > .pff-wheel-percent-72 {
+    stroke-dasharray: 339 471; }
+  .pff-large > .pff-wheel-percent-73 {
+    stroke-dasharray: 344 471; }
+  .pff-large > .pff-wheel-percent-74 {
+    stroke-dasharray: 349 471; }
+  .pff-large > .pff-wheel-percent-75 {
+    stroke-dasharray: 353 471; }
+  .pff-large > .pff-wheel-percent-76 {
+    stroke-dasharray: 358 471; }
+  .pff-large > .pff-wheel-percent-77 {
+    stroke-dasharray: 363 471; }
+  .pff-large > .pff-wheel-percent-78 {
+    stroke-dasharray: 367 471; }
+  .pff-large > .pff-wheel-percent-79 {
+    stroke-dasharray: 372 471; }
+  .pff-large > .pff-wheel-percent-80 {
+    stroke-dasharray: 377 471; }
+  .pff-large > .pff-wheel-percent-81 {
+    stroke-dasharray: 382 471; }
+  .pff-large > .pff-wheel-percent-82 {
+    stroke-dasharray: 386 471; }
+  .pff-large > .pff-wheel-percent-83 {
+    stroke-dasharray: 391 471; }
+  .pff-large > .pff-wheel-percent-84 {
+    stroke-dasharray: 396 471; }
+  .pff-large > .pff-wheel-percent-85 {
+    stroke-dasharray: 400 471; }
+  .pff-large > .pff-wheel-percent-86 {
+    stroke-dasharray: 405 471; }
+  .pff-large > .pff-wheel-percent-87 {
+    stroke-dasharray: 410 471; }
+  .pff-large > .pff-wheel-percent-88 {
+    stroke-dasharray: 414 471; }
+  .pff-large > .pff-wheel-percent-89 {
+    stroke-dasharray: 419 471; }
+  .pff-large > .pff-wheel-percent-90 {
+    stroke-dasharray: 424 471; }
+  .pff-large > .pff-wheel-percent-91 {
+    stroke-dasharray: 429 471; }
+  .pff-large > .pff-wheel-percent-92 {
+    stroke-dasharray: 433 471; }
+  .pff-large > .pff-wheel-percent-93 {
+    stroke-dasharray: 438 471; }
+  .pff-large > .pff-wheel-percent-94 {
+    stroke-dasharray: 443 471; }
+  .pff-large > .pff-wheel-percent-95 {
+    stroke-dasharray: 447 471; }
+  .pff-large > .pff-wheel-percent-96 {
+    stroke-dasharray: 452 471; }
+  .pff-large > .pff-wheel-percent-97 {
+    stroke-dasharray: 457 471; }
+  .pff-large > .pff-wheel-percent-98 {
+    stroke-dasharray: 462 471; }
+  .pff-large > .pff-wheel-percent-99 {
+    stroke-dasharray: 466 471; }
+  .pff-large > text {
+    transform: translate(77px, 78px); }
+  .pff-large > .pff-wheel-track, .pff-large > .pff-wheel-thumb {
+    r: 75;
+    cx: 77;
+    cy: 77; }
+  .pff-large > .pff-wheel-thumb {
+    transform: translate(0px, 154px) rotate(-90deg); }
+
+.pff-red > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-red:hover > .pff-wheel-thumb {
+  stroke: #f44336; }
+
+.pff-pink > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-pink:hover > .pff-wheel-thumb {
+  stroke: #e91e63; }
+
+.pff-orange > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-orange:hover > .pff-wheel-thumb {
+  stroke: #ff9800; }
+
+.pff-yellow > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-yellow:hover > .pff-wheel-thumb {
+  stroke: #ffeb3b; }
+
+.pff-green > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-green:hover > .pff-wheel-thumb {
+  stroke: #4CAF50; }
+
+.pff-teal > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-teal:hover > .pff-wheel-thumb {
+  stroke: #009688; }
+
+.pff-cyan > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-cyan:hover > .pff-wheel-thumb {
+  stroke: #00bcd4; }
+
+.pff-lime > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-lime:hover > .pff-wheel-thumb {
+  stroke: #cddc39; }
+
+.pff-blue > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-blue:hover > .pff-wheel-thumb {
+  stroke: #2196F3; }
+
+.pff-indigo > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-indigo:hover > .pff-wheel-thumb {
+  stroke: #3f51b5; }
+
+.pff-purple > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-purple:hover > .pff-wheel-thumb {
+  stroke: #9c27b0; }
+
+.pff-khaki > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-khaki:hover > .pff-wheel-thumb {
+  stroke: #f0e68c; }
+
+.pff-black > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-black:hover > .pff-wheel-thumb {
+  stroke: #000; }
+
+.pff-brown > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-brown:hover > .pff-wheel-thumb {
+  stroke: #795548; }
+
+.pff-gray > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-gray:hover > .pff-wheel-thumb {
+  stroke: #bbb; }
+
+.pff-lightgray > .pff-wheel-thumb {
+  stroke: #666; }
+
+.pff-lightgray:hover > .pff-wheel-thumb {
+  stroke: #f1f1f1; }
+
+/*# sourceMappingURL=pff-wheel.css.map */

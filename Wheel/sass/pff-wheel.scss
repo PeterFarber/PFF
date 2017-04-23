@@ -1,0 +1,131 @@
+/*
+	File: pff-wheel.scss
+	Author: Peter Farber
+	Contributors: N/A
+	Last Modified: 4/22/2017
+	Copyright: PFF (Peter Farber's Framework)
+	License: MIT
+*/
+
+//Returns the denominator component for the dash array attribute.
+@function getDashArrayDenominator($radius){
+	@return round( (2 * 3.14159) * $radius );
+}
+
+//Returns the numerator component for the dash array attribute based on a percentage.
+@function getDashArrayNumerator($percentage, $denominator){
+	@return round( ($percentage/100) * $denominator );
+}
+
+//Simple transition for cross browser support.
+@mixin transition($transition...){
+	-moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+//Wheel Attributes: Modify at will.
+$wheel-attributes: (
+	strokeColor: #666,
+	strokeWidth: 4,
+	wheel-radius: (
+	    "pff-small": 45,
+	    "pff-medium": 60,
+	    "pff-large": 75
+	),
+	wheel-color: (
+		"pff-red": #f44336,
+		"pff-pink": #e91e63,
+		"pff-orange": #ff9800,
+		"pff-yellow": #ffeb3b,
+		"pff-green": #4CAF50,
+		"pff-teal": #009688,
+		"pff-cyan": #00bcd4,
+		"pff-lime": #cddc39,
+		"pff-blue": #2196F3,
+		"pff-indigo": #3f51b5,
+		"pff-purple": #9c27b0,
+		"pff-khaki": #f0e68c,
+		"pff-black": #000,
+		"pff-brown": #795548,
+		"pff-gray": #bbb,
+		"pff-lightgray": #f1f1f1
+	)
+);
+
+//PFF-Wheel contains the wheel and controlls the inner elements.
+.pff-wheel{
+	
+	cursor:pointer;
+
+	text{
+		font-size:16px;
+		text-anchor:middle; 
+		alignment-baseline:middle;
+	}
+
+	> circle{
+		fill:none;
+		stroke:#DDD;
+		stroke-width: map-get($wheel-attributes, "strokeWidth");;
+		stroke-dasharray:0 0;
+		@include transition(all 0.25s);
+	}
+
+}
+
+//Generate the sizes and percentages for the wheel.
+$wheel-radius: map-get($wheel-attributes, "wheel-radius");
+@each $key, $var in $wheel-radius {
+
+	$size: ($var * 2) + map-get($wheel-attributes, "strokeWidth");
+	$halfSize: $size * 0.5;
+	$denominator: getDashArrayDenominator($var);
+
+	.#{$key}{
+		width: $size;
+		height: $size;
+
+		$i: 0;
+		@while $i < 100 {
+			$numerator: getDashArrayNumerator($i, $denominator);
+			> .pff-wheel-percent-#{$i}{
+				stroke-dasharray:$numerator $denominator;
+			}
+			$i: $i + 1;
+		} 
+
+		> text {
+			transform:  translate(#{$halfSize}px, #{$halfSize+1}px);
+		}
+
+		> .pff-wheel-track{
+			r: $var;
+			cx: $halfSize;
+			cy: $halfSize;
+		}
+
+		> .pff-wheel-thumb{
+			@extend .pff-wheel-track;
+			transform:  translate(#{0}px, #{$size}px) rotate(-90deg);
+		}
+		
+	}
+}
+
+//Generate the colors for the wheel.
+$wheel-color: map-get($wheel-attributes, "wheel-color");
+@each $key, $var in $wheel-color {
+	.#{$key}{
+		> .pff-wheel-thumb{
+			stroke: map-get($wheel-attributes, "strokeColor");
+		}
+	}
+	.#{$key}:hover{
+		> .pff-wheel-thumb{
+			stroke: $var;
+		}
+	}
+}
+
