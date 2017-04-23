@@ -68,7 +68,7 @@ $wheel-attributes: (
 	> circle{
 		fill:none;
 		stroke:#DDD;
-		stroke-width: map-get($wheel-attributes, "strokeWidth");;
+		stroke-width: #{map-get($wheel-attributes, "strokeWidth")}px;
 		stroke-dasharray:0 0;
 		@include transition(all 0.25s);
 	}
@@ -84,8 +84,8 @@ $wheel-radius: map-get($wheel-attributes, "wheel-radius");
 	$denominator: getDashArrayDenominator($var);
 
 	.#{$key}{
-		width: $size;
-		height: $size;
+		width: #{$size}px;
+		height: #{$size}px;
 
 		$i: 0;
 		@while $i < 100 {

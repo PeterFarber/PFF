@@ -15,7 +15,7 @@
   .pff-wheel > circle {
     fill: none;
     stroke: #DDD;
-    stroke-width: 4;
+    stroke-width: 4px;
     stroke-dasharray: 0 0;
     -moz-transition: all 0.25s;
     -o-transition: all 0.25s;
@@ -23,8 +23,8 @@
     transition: all 0.25s; }
 
 .pff-small {
-  width: 94;
-  height: 94; }
+  width: 94px;
+  height: 94px; }
   .pff-small > .pff-wheel-percent-0 {
     stroke-dasharray: 0 283; }
   .pff-small > .pff-wheel-percent-1 {
@@ -235,8 +235,8 @@
     transform: translate(0px, 94px) rotate(-90deg); }
 
 .pff-medium {
-  width: 124;
-  height: 124; }
+  width: 124px;
+  height: 124px; }
   .pff-medium > .pff-wheel-percent-0 {
     stroke-dasharray: 0 377; }
   .pff-medium > .pff-wheel-percent-1 {
@@ -447,8 +447,8 @@
     transform: translate(0px, 124px) rotate(-90deg); }
 
 .pff-large {
-  width: 154;
-  height: 154; }
+  width: 154px;
+  height: 154px; }
   .pff-large > .pff-wheel-percent-0 {
     stroke-dasharray: 0 471; }
   .pff-large > .pff-wheel-percent-1 {
