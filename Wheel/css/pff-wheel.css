@@ -17,10 +17,10 @@
     stroke: #DDD;
     stroke-width: 4px;
     stroke-dasharray: 0 0;
-    -moz-transition: all 0.25s;
-    -o-transition: all 0.25s;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s; }
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out; }
 
 .pff-small {
   width: 94px;

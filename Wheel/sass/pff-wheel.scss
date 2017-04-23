@@ -70,7 +70,7 @@ $wheel-attributes: (
 		stroke:#DDD;
 		stroke-width: #{map-get($wheel-attributes, "strokeWidth")}px;
 		stroke-dasharray:0 0;
-		@include transition(all 0.25s);
+		@include transition(all 1.0s ease-out);
 	}
 
 }
@@ -91,7 +91,8 @@ $wheel-radius: map-get($wheel-attributes, "wheel-radius");
 		@while $i < 100 {
 			$numerator: getDashArrayNumerator($i, $denominator);
 			> .pff-wheel-percent-#{$i}{
-				stroke-dasharray:$numerator $denominator;
+				stroke-dasharray: $numerator $denominator;
+
 			}
 			$i: $i + 1;
 		} 
